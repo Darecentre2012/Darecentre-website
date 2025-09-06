@@ -10540,3 +10540,23 @@ html {
   width: 40px;
   text-align: center;
 }
+.jumbotron a.btn {
+  position: relative;
+  z-index: 10;
+}
+.jumbotron a.btn {
+  pointer-events: auto !important;
+}
+.icon-bullet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px; /* circle size */
+  height: 35px;
+  border-radius: 50%;
+  font-size: 16px;
+  margin-right: 12px; /* space between icon & text */
+}
+.session-item .icon-circle {
+  margin-right: 20px; /* more space between icon and text */
+}
